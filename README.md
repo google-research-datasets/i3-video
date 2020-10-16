@@ -1,6 +1,18 @@
-# i3-video (is-it-instructional-video) annotations
+This repo provides i3-video annotations from [Beyond Instructional Videos: Probing for More Diverse Visual-Textual Grounding on YouTube](https://arxiv.org/abs/2004.14338)
 
-This repo provides i3-video annotations from xxx paper.
+If you find the data or paper useful for your own work, please consider citing:
+
+```
+@inproceedings{2020-hessel-zhu-pang-soricut-beyond,
+  title={Beyond Instructional Videos: Probing for More Diverse Visual-Textual Grounding on {YouTube}},
+  author={Hessel, Jack and Zhu, Zhenhai and Pang, Bo and Soricut, Radu},
+  booktitle={EMNLP},
+  year={2020}
+}
+```
+
+
+# i3-video (is-it-instructional-video) annotations
 
 We sample videos with English ASR from the validation set of the [YouTube-8M dataset](http://research.google.com/youtube8m/download.html), subject to YouTube policies.  Each video is shown to three paid annotators, who each provide a `Yes`/`No` answer to the question: 
 
@@ -24,4 +36,3 @@ Video id, human annotation
 [Video id](http://research.google.com/youtube8m/video_id_conversion.html) is the id for the video from YouTube-8M release, which was a randomly-generated ID to protect the privacy of uploaders.  The external YouTube ID can be looked up following the instructions on [this page](http://research.google.com/youtube8m/video_id_conversion.html), as long as the video remains public on YouTube. 
 
 Human annotation field is simply a string with all ratings received by the video concatenated by `-`.  A rating can be either `Yes`, `No`, or, in a small number of cases, `Can’t Judge`.  In the vast majority of cases (99.8%), a video receives exactly three ratings; in a small number of cases, it receives 1,2, or 4 ratings. 96% of the time, all raters agreed on the same rating.  According to a majority vote, 73.6% of annotated videos are ***not*** instructional. 
-
