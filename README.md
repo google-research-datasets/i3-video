@@ -2,11 +2,11 @@
 
 This repo provides i3-video annotations from xxx paper.
 
-We sample videos with English ASR from the validation set of the [YouTube-8M dataset](http://research.google.com/youtube8m/download.html), subject to YouTube policies.  Each video is shown to three paid annotators, who each provide a Yes/No answer to the question: 
+We sample videos with English ASR from the validation set of the [YouTube-8M dataset](http://research.google.com/youtube8m/download.html), subject to YouTube policies.  Each video is shown to three paid annotators, who each provide a `Yes`/`No` answer to the question: 
 
-“Is this an instructional video in a broad sense?  That is, does this video focus on *real-world* human actions accompanied by procedural language that explains what’s happening on screen in reasonable details?”  
+> Is this an instructional video in a broad sense?  That is, does this video focus on *real-world* human actions accompanied by procedural language that explains what’s happening on screen in reasonable details?  
 
-More specifically, the raters were instructed to answer ***yes*** for videos that are
+More specifically, the raters were instructed to answer ***`Yes`*** for videos that are
 - a tutorial / how-to video intended to teach a user how to do something themselves.  For instance, a cooking demonstration, a video explaining how to bleed brakes, how to stretch your foot, or how to style the hair.   
 - not intended to teach viewers how to do it themselves, but whose main focus is real-world human actions accompanied by procedural language.  e.g.,
   - an educational video intended to inform how it's done by professionals, for example, a video with a physician explaining a procedure to potential patients.
