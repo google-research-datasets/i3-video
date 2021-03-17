@@ -1,4 +1,4 @@
-This repo provides i3-video annotations from [Beyond Instructional Videos: Probing for More Diverse Visual-Textual Grounding on YouTube](https://arxiv.org/abs/2004.14338)
+This repo provides i3-video annotations [[download](https://storage.googleapis.com/i3-video/i3-video-annotations.csv)] from [Beyond Instructional Videos: Probing for More Diverse Visual-Textual Grounding on YouTube](https://arxiv.org/abs/2004.14338)
 
 If you find the data or paper useful for your own work, please consider citing:
 
@@ -28,7 +28,7 @@ More specifically, the raters were instructed to answer ***`Yes`*** for videos t
 - Note also that the judgment should be made based on the main focus of the video.
   - we want to exclude, for instance, a conditioner review where visually it is mainly displaying the product, with little procedural language; but a video mainly focused on teaching people how to do a particular hair-do should be annotated as yes, even if it has a few product placement at the end
 
-We release the resulting i3-video dataset (is-it-instructional annotations) for 6.8K videos in a csv file with two fields:
+We release the resulting i3-video dataset (is-it-instructional annotations) [[download](https://storage.googleapis.com/i3-video/i3-video-annotations.csv)] for 6.8K videos in a csv file with two fields:
 ```
 Video id, human annotation
 ```
